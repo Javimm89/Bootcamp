@@ -46,6 +46,8 @@ console.log(toy2.name, toy2.price)
 console.log(`Precio total:` , adittionToy1Toy2)
 
 
+//Falta por subir, me da error
+
 //Iteración 3
 
 
