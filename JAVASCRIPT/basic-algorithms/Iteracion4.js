@@ -11,9 +11,10 @@ avengers.unshift("IRONMAN");
 console.log(avengers)
 
 //1.3 Cambia el numero de elementos en el array usando la propiedad correcta de Array.
-//NO ME LLEGA A SALIR DEL TODO BIEN Y PREFIERO DEJARLO :(
+//NO ME LLEGA A SALIR DEL TODO BIEN Y PREFIERO DEJARLO :( (AÑADIDO POSTERIORMENTE)
 
-
+const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers2.length);
 
 //1.4 Añade 2 elementos al array: "Morty" y "Summer". 
 //Muestra en consola el último personaje del array
