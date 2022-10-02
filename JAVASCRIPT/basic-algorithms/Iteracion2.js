@@ -29,10 +29,15 @@ console.log(`Precio Total`, precioAmbas);
 //y actualiza la propiedad finalPrice de todos los coches con el valor de su propiedad
 //basePrice más el valor de la variable globalBasePrice.
 let globalBasePrice = 10000;
-const car1 = { name: "BMW m&m", basePrice: 50000, finalPrice: 60000 };
-const car2 = { name: "Chevrolet Corbina", basePrice: 70000, finalPrice: 80000 };
-
-let newglobalBasePrice = 25000;
-let additonalPrice = car1.basePrice + car2.basePrice + newglobalBasePrice;
-
-console.log(additonalPrice);
+const car3 = { name: "BMW m&m", basePrice: 50000, finalPrice: 60000 };
+const car4 = { name: "Chevrolet Corbina", basePrice: 70000, finalPrice: 80000 };
+//Cambiar valor de la variable globalBasePrice a 250000.
+//Para cambiar el valor de una variable, basta con llamar la variable y asignarle un nuevo valor.
+globalBasePrice = 250000;
+console.log(globalBasePrice)
+//actualiza la propiedad finalPrice de todos los coches.
+//el nuevo precio tiene que ser basePrice más globalPrice.
+car3.finalPrice = car3.basePrice + globalBasePrice
+console.log(car3.finalPrice)
+car4.finalPrice = car4.basePrice + globalBasePrice
+console.log(car4.finalPrice)
