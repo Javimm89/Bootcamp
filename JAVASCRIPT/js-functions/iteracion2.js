@@ -26,17 +26,16 @@ const avengers = [
 //La variable avengers es una cosa y la function es otra.
 
 function findLongestWord(array) {
-  let longestWord = "";
-  for (const personaje of array) {
-    //Obtengo cada personaje
-    console.log(personaje);
-    //Obtengo la longitud del nombre de cada personaje
-    console.log(personaje.length);
-    if (personaje.length == personaje.length) {
-      console.log("Dos personajes coinciden");
-      console.log(personaje);
+  let longestWord = array[0];
+  for (let index = 1; index < array.length; index++) {
+    if (array[index].length > longestWord.length) {
+      longestWord = array[index]
     }
-  }
-}
 
-console.log(findLongestWord(avengers));
+    }
+  return longestWord
+  }
+
+console.log(findLongestWord(avengers))
+
+
