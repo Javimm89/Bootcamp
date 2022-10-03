@@ -1,4 +1,4 @@
-
+//ITERACION1: Interacción con el DOM
 // 1.1 Usa querySelector para mostrar por consola el botón con la clase .**showme**
 const  buttonShowme  =  document.querySelector ( ".showme" ) ;
 console.log(buttonShowme);
